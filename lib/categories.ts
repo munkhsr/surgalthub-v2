@@ -1,0 +1,11 @@
+import taxonomy from "./taxonomy.json";
+export type Subcategory = { name: string; specializations?: string[] };
+export type CourseCategory = { name: string; icon: string; description: string; subcategories: Subcategory[] };
+export const courseCategories: CourseCategory[] = taxonomy;
+export const categories = [{ name: "Бүгд", icon: "◉" }, ...courseCategories];
+export const getSubcategories = (category: string) => courseCategories.find(c => c.name === category)?.subcategories || [];
+export const getSpecializations = (category: string, subcategory: string) => getSubcategories(category).find(s => s.name === subcategory)?.specializations || [];
+export const levels = ["Анхан", "Дунд", "Ахисан"];
+export const timeSlots = ["Өдөр", "Орой", "Амралтын өдөр"];
+export const ageGroups = ["2–5", "6–8", "9–12", "13–17", "18+"];
+export const gradeGroups = ["1–5", "6–9", "10–12"];

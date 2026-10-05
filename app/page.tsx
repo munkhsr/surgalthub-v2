@@ -1,0 +1,10 @@
+import Link from "next/link";
+import { Suspense } from "react";
+import { Catalog } from "@/components/catalog";
+import { HomeCenters } from "@/components/centers";
+import { photos } from "@/lib/data";
+import { Icon } from "@/components/icon";
+import { HomeCategories } from "@/components/home-categories";
+export default function Home() {
+  return <div className="reference-home"><section className="container hero"><div className="hero-bg" style={{ backgroundImage: `url(${photos.hero})` }}/><div className="hero-copy"><h1>Илүү сайн<br/>ирээдүйг бүтээх<br/><span>сургалтууд энд байна</span></h1><p>Өөрт тохирсон сургалтаа олж, шинэ ур чадвар эзэмшиж,<br className="desktop-break"/> боломжуудаа нээгээрэй.</p><form action="/courses" className="hero-search"><span><Icon name="search"/></span><input name="q" aria-label="Ямар сургалт хайж байна вэ?" placeholder="Ямар сургалт хайж байна вэ?"/><button className="button" type="submit">Хайх</button></form><div className="popular-searches"><span>🔥 Түгээмэл:</span>{["Хятад хэл", "Англи хэл", "Вэб", "Дизайн"].map(q => <Link key={q} href={`/courses?q=${encodeURIComponent(q)}`}>{q}</Link>)}</div></div><div className="hero-promises"><p><span><Icon name="book"/></span> Сонирхолд нийцсэн сургалтууд</p><p><span><Icon name="users"/></span> Сургалтын төвүүд нэг дор</p><p><span><Icon name="star"/></span> Үнэ, хуваарийг харьцуулах</p><p><span><Icon name="chart"/></span> Шинэ боломж, шинэ мэдлэг</p></div></section><HomeCategories/><Suspense fallback={<div className="container empty-state">Сургалтуудыг ачаалж байна…</div>}><Catalog home/></Suspense><HomeCenters/><section className="container benefit-strip"><div><span><Icon name="shield"/></span><p><strong>Нэг дороос хайх</strong><small>Чиглэл, үнэ, байршлаар</small></p></div><div><span><Icon name="users"/></span><p><strong>Хялбар харьцуулах</strong><small>Өөрт тохирох сонголт</small></p></div><div><span><Icon name="bolt"/></span><p><strong>Шинэ боломж</strong><small>Өөрийгөө хөгжүүл</small></p></div><div><span><Icon name="headset"/></span><p><strong>Шууд холбогдох</strong><small>Сургалтын төвтэй</small></p></div></section></div>;
+}

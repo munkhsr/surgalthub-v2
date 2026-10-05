@@ -1,0 +1,182 @@
+/* Reference-led refinements: shared SVG icons, readable cards, photo hero. */
+.icon { width: 22px; height: 22px; flex-shrink: 0; vertical-align: middle; }
+.mobile-header-actions { display: none; }
+.header { height: 70px; }
+.header-inner { gap: 20px; }
+.brand { font-size: 23px; }
+.nav { gap: 25px; flex: 1; margin-left: 22px; font-size: 14px; }
+.nav .header-icon-button:first-of-type { margin-left: auto; }
+.nav > .header-icon-button { width: 38px; height: 38px; border-radius: 9px; background: #f5f8fc; display: grid; place-items: center; }
+.nav > a:nth-child(4) { margin-left: auto; }
+.nav .header-icon-button + .header-icon-button { margin-left: -14px; }
+.hero { min-height: 382px; }
+.hero-bg { background-position: center; }
+.hero-bg:after { background: linear-gradient(90deg, #07172edf, #07172e87 42%, #07172e00 75%); }
+.hero-copy { flex: 1; min-width: 0; padding: 34px 36px; }
+.hero h1 { font-size: clamp(32px, 3.2vw, 43px); line-height: 1.14; letter-spacing: -1.1px; }
+.hero-copy > p { font-size: 16px; }
+.hero-search { max-width: 710px; height: 54px; }
+.hero-search input { font-size: 15px; }
+.hero-search > span { display: flex; padding: 0 16px; }
+.hero-search .button { font-size: 15px; }
+.hero-promises { width: 245px; flex-shrink: 0; margin-right: 16px; padding: 13px 18px; background: #ffffffbb; }
+.hero-promises p { font-size: 13px; margin: 16px 0; gap: 14px; }
+.hero-promises .icon { width: 23px; height: 23px; }
+.popular-searches { font-size: 12px; margin-top: 13px; gap: 7px; }
+.popular-searches a { padding: 3px 10px; }
+.category-tile { min-height: 143px; padding: 14px 8px; }
+.category-tile > span { width: 53px; height: 53px; background: #eaf4ff; }
+.category-tile .icon { width: 31px; height: 31px; stroke-width: 2.3px; }
+.category-tile h3 { font-size: 13px; min-height: 35px; line-height: 1.35; }
+.category-tile p { font-size: 11px; }
+.tile-2 .icon { stroke: #00b694; }
+.tile-3 .icon { stroke: #f3a000; }
+.tile-4 .icon { stroke: #b4673f; }
+.tile-5 .icon { stroke: #f62360; fill: #f62360; }
+.section-heading h2 { font-size: 25px; }
+.text-link { font-size: 13px; }
+.home-catalog .course-art { height: 128px; }
+.home-catalog .card-body { padding: 12px; }
+.home-catalog .card-body h3 { font-size: 14px; min-height: 39px; }
+.course-card { border-radius: 10px; }
+.card-body h3 { letter-spacing: -.025em; }
+.center-name, .location { display: flex; align-items: center; gap: 5px; }
+.center-name { font-size: 12px; margin-bottom: 10px; }
+.center-name .icon { width: 13px; height: 13px; }
+.location .icon { width: 12px; height: 12px; }
+.card-meta > span:last-child { display: inline-flex; gap: 4px; align-items: center; }
+.card-meta .icon { width: 13px; height: 13px; }
+.card-format { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; }
+.card-format .icon { width: 13px; height: 13px; }
+.home-catalog .card-bottom strong { font-size: 14px; }
+.format-badge { top: 10px; bottom: auto; color: white; background: #0769f4; padding: 3px 9px; font-size: 10px; }
+.save-button { width: 31px; height: 31px; color: #536b8a; }
+.save-button .icon { width: 23px; height: 23px; }
+.home-centers { margin-top: 23px; gap: 25px; }
+.center-card h3 { font-size: 14px; line-height: 1.35; }
+.center-card p { font-size: 12px; }
+.center-card small { font-size: 11px; }
+.center-cta h3 { font-size: 17px; }
+.center-cta p { font-size: 13px; }
+.center-cta .button { font-size: 12px; }
+.benefit-strip > div > span { display: flex; }
+.benefit-strip .icon { width: 33px; height: 33px; stroke-width: 2.3px; }
+.benefit-strip strong { font-size: 14px; }
+.benefit-strip small { font-size: 12px; }
+.filter-search > span { display: flex; }
+.country-flag { width: 48px; height: 48px; display: block; margin: 0 auto; }
+.language-tile > span { display: block; }
+.language-tile h3 { font-size: 15px; }
+.language-tile small { font-size: 12px; }
+.language-hero { min-height: 240px; }
+.language-art { position: absolute; right: 25px; bottom: -15px; width: 330px; height: 260px; object-fit: contain; }
+.language-hero > div:first-child { position: relative; z-index: 1; }
+.language-other-icon { display: grid; place-items: center; height: 48px; color: var(--blue); }
+.language-other-icon .icon { width: 36px; height: 36px; }
+@media (max-width: 1100px) {
+  .nav { gap: 16px; margin-left: 8px; font-size: 12px; }
+  .nav .header-icon-button + .header-icon-button { margin-left: -7px; }
+  .hero-promises { width: 220px; padding: 10px 14px; }
+  .hero-promises p { font-size: 11px; }
+  .home-catalog .course-art { height: 160px; }
+  .category-tile h3 { min-height: 0; }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .mobile-header-actions { display: flex; align-items: center; gap: 16px; }
+  .mobile-header-actions > a { display: flex; align-items: center; width: 30px; height: 40px; }
+  .menu-toggle { display: grid; place-items: center; }
+  .nav { display: none; position: absolute; top: 65px; left: 24px; right: 24px; margin: 0; padding: 22px; background: white; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 12px 35px #122a4e20; }
+  .nav.open { display: flex; flex-direction: column; align-items: stretch; font-size: 14px; }
+  .nav > a:nth-child(4), .nav .header-icon-button + .header-icon-button { margin-left: 0; }
+  .nav > a.active:after { display: none; }
+  .hero-promises { display: none; }
+}
+@media (max-width: 760px) {
+  .header { height: 76px; }
+  .brand { font-size: 23px; gap: 7px; }
+  .brand-symbol { width: 33px; }
+  .mobile-header-actions { display: flex; align-items: center; gap: 12px; }
+  .mobile-header-actions > a { display: flex; align-items: center; justify-content: center; width: 30px; height: 40px; }
+  .mobile-header-actions .icon { width: 23px; height: 23px; }
+  .menu-toggle { display: grid; place-items: center; width: 37px; height: 39px; }
+  .nav { margin-left: 0; font-size: 14px; top: 69px; }
+  .nav > a:nth-child(4), .nav .header-icon-button + .header-icon-button { margin-left: 0; }
+  .bottom-nav { height: 74px; }
+  .bottom-nav a { font-size: 11px; gap: 5px; }
+  .bottom-nav .icon { width: 25px; height: 25px; stroke-width: 1.8px; }
+  .bottom-nav a.active .icon { stroke-width: 2.4px; }
+  .bottom-nav a.active:first-child .icon { fill: var(--blue); }
+  .hero { min-height: 345px; }
+  .hero-bg { background-position: 69% center; }
+  .hero-bg:after { background: linear-gradient(90deg, #07172ef0, #07172ea0 40%, #07172e26); }
+  .hero-copy { width: 100%; padding: 25px 19px; }
+  .hero h1 { font-size: 29px; line-height: 1.19; letter-spacing: -.9px; }
+  .hero-copy > p { max-width: 275px; font-size: 14px; line-height: 1.65; margin-bottom: 20px; }
+  .hero-search { height: 49px; }
+  .hero-search > span { padding: 0 10px; }
+  .hero-search .icon { width: 19px; height: 19px; }
+  .hero-search input { font-size: 12px; }
+  .hero-search .button { font-size: 13px; min-width: 79px; }
+  .popular-searches { font-size: 10px; gap: 5px; }
+  .popular-searches a { padding: 3px 7px; }
+  .section-heading h2 { font-size: 20px; }
+  .text-link { font-size: 11px; }
+  .category-grid { gap: 8px; }
+  .category-tile { min-height: 100px; padding: 11px 5px; }
+  .category-tile > span { width: 40px; height: 40px; margin-bottom: 8px; }
+  .category-tile .icon { width: 26px; height: 26px; }
+  .category-tile h3 { font-size: 11px; min-height: 30px; }
+  .home-catalog .course-card { min-width: 70%; max-width: 70%; }
+  .home-catalog .course-art { height: 138px; }
+  .home-catalog .card-body { padding: 12px; }
+  .home-catalog .card-body h3 { font-size: 14px; min-height: 0; padding-right: 0; }
+  .home-catalog .center-name { font-size: 12px; }
+  .home-catalog .card-bottom strong { font-size: 14px; }
+  .course-image-link { width: 105px; }
+  .course-art { min-height: 117px; }
+  .card-body h3 { font-size: 14px; line-height: 1.35; margin-bottom: 7px; }
+  .center-name { font-size: 11px; line-height: 1.4; margin-bottom: 8px; }
+  .location { font-size: 10px; margin-bottom: 9px; }
+  .card-format { font-size: 10px; }
+  .card-bottom strong { font-size: 13px; }
+  .format-badge { font-size: 9px; top: 7px; left: 6px; padding: 2px 6px; }
+  .course-card > .save-button { width: 28px; height: 28px; top: 12px; }
+  .home-centers .center-card { min-width: 69%; }
+  .center-card h3 { font-size: 14px; }
+  .center-cta h3 { font-size: 16px; }
+  .center-cta p { font-size: 13px; }
+  .benefit-strip strong { font-size: 10px; }
+  .benefit-strip .icon { width: 29px; height: 29px; }
+  .language-hero { min-height: 220px; padding: 24px 20px; border-radius: 12px; }
+  .language-hero h1 { font-size: 32px; }
+  .language-hero p { font-size: 14px; max-width: 165px; }
+  .language-art { width: 215px; height: 210px; right: -34px; bottom: -5px; }
+  .language-grid { gap: 10px; }
+  .language-tile { padding: 16px 5px; }
+  .country-flag { width: 43px; height: 43px; }
+  .language-tile h3 { font-size: 13px; }
+  .language-tile small { font-size: 10px; }
+  .detail-page h1 { font-size: 25px; }
+  .detail-image { height: 280px; }
+  .detail-sidebar { background: linear-gradient(130deg, #f7fbff, #fff); }
+  .info-grid { border: 1px solid #eaf2fb; }
+}
+@media (max-width: 360px) {
+  .brand { font-size: 20px; }
+  .brand-symbol { width: 29px; }
+  .mobile-header-actions { gap: 5px; }
+  .mobile-header-actions > a { width: 25px; }
+  .hero-copy { padding: 24px 15px; }
+  .hero h1 { font-size: 25px; }
+  .hero-copy > p { font-size: 12px; }
+  .hero-search input { font-size: 10px; }
+  .hero-search .button { min-width: 62px; }
+  .popular-searches { font-size: 9px; }
+  .category-tile h3 { font-size: 10px; }
+  .card-body h3 { font-size: 12px; }
+  .center-name { font-size: 10px; }
+  .card-bottom strong { font-size: 12px; }
+  .card-format { font-size: 9px; }
+  .language-art { width: 185px; right: -40px; }
+  .language-hero p { max-width: 147px; font-size: 12px; }
+}

@@ -1,0 +1,45 @@
+[
+  {"name":"Гадаад хэл","icon":"🌐","description":"Хэл, шалгалт, ярианы чадвар","subcategories":[
+    {"name":"Англи хэл","specializations":["General English","IELTS","TOEFL","Business English","Ярианы англи","Хүүхдийн англи хэл"]},
+    {"name":"Хятад хэл","specializations":["HSK","Ярианы хятад","Бизнесийн хятад","Хүүхдийн хятад хэл"]},
+    {"name":"Солонгос хэл","specializations":["TOPIK","Ярианы солонгос"]},
+    {"name":"Япон хэл","specializations":["JLPT","Ярианы япон"]},
+    {"name":"Герман хэл"},{"name":"Орос хэл"},{"name":"Франц хэл"},{"name":"Бусад хэл"}
+  ]},
+  {"name":"ЕБС & Шалгалтын бэлтгэл","icon":"📚","description":"Хичээл, ЭЕШ, олимпиад","subcategories":[
+    {"name":"Математик"},{"name":"Монгол хэл"},{"name":"Монгол бичиг"},{"name":"Англи хэл"},{"name":"Физик"},{"name":"Хими"},{"name":"Биологи"},{"name":"Нийгэм судлал"},{"name":"Түүх"},{"name":"Газарзүй"},{"name":"Мэдээлэл зүй"},
+    {"name":"ЭЕШ бэлтгэл","specializations":["Математик","Монгол хэл","Англи хэл","Физик","Хими","Биологи","Нийгэм судлал","Түүх","Газарзүй"]},
+    {"name":"Олимпиадын бэлтгэл"},{"name":"Хоцрогдол нөхөх"},{"name":"Давтлага"},{"name":"Хувийн багш"},{"name":"Ахлах ангийн бэлтгэл"},{"name":"Элсэлтийн шалгалтын бэлтгэл"}
+  ]},
+  {"name":"Хүүхдийн хөгжил","icon":"👧","description":"Насанд тохирсон хөгжлийн хөтөлбөр","subcategories":[
+    {"name":"Сургуулийн бэлтгэл"},{"name":"Өдөр өнжүүлэх"},{"name":"Ментал арифметик"},{"name":"Логик сэтгэлгээ"},{"name":"Ой тогтоолт"},{"name":"Шатар"},{"name":"Робот техник"},{"name":"Хүүхдийн программчлал"},{"name":"STEM/Science"},{"name":"Хүүхдийн англи хэл"},{"name":"Хүүхдийн хятад хэл"},{"name":"Уран зураг"},{"name":"Гар урлал"},{"name":"Бүжиг"},{"name":"Хөгжим"},{"name":"Хэл яриа/илтгэх чадвар"},{"name":"Харилцааны чадвар"}
+  ]},
+  {"name":"IT & Технологи","icon":"💻","description":"Код, программ, дижитал чадвар","subcategories":[
+    {"name":"Компьютерийн анхан шат"},{"name":"Microsoft Office"},{"name":"Excel"},
+    {"name":"Программчлал","specializations":["Python","JavaScript","Java","C#","C++"]},
+    {"name":"Web development","specializations":["Frontend","Backend","Full-stack","React"]},
+    {"name":"Mobile development","specializations":["Android","iOS","Flutter","React Native"]},
+    {"name":"Database/SQL"},{"name":"Data analysis"},{"name":"Data science"},{"name":"AI/Хиймэл оюун"},{"name":"Machine learning"},{"name":"Cybersecurity"},{"name":"Network/System administration"},{"name":"Cloud/DevOps"},{"name":"Software testing/QA"},{"name":"Робот техник"}
+  ]},
+  {"name":"Жолооны сургалт","icon":"🚗","description":"Жолооны эрх, дүрэм, дадлага","subcategories":[
+    {"name":"B ангилал"},{"name":"C ангилал"},{"name":"D ангилал"},{"name":"E ангилал"},{"name":"Мотоцикл"},{"name":"Ангилал ахиулах"},{"name":"Мэргэшсэн жолооч"},{"name":"Жолооны дадлага"},{"name":"Замын хөдөлгөөний дүрэм"}
+  ]},
+  {"name":"Гоо сайхан","icon":"💄","description":"Үс, нүүр будалт, арчилгааны чадвар","subcategories":[
+    {"name":"Үсчин"},{"name":"Barber"},{"name":"Маникюр"},{"name":"Педикюр"},{"name":"Nail art"},{"name":"Нүүр будалт/Makeup"},{"name":"Сормуус"},{"name":"Хөмсөг"},{"name":"Гоо сайханч"},{"name":"Арьс арчилгаа"},{"name":"Массаж"},{"name":"Косметик үйлчилгээний сургалт"}
+  ]},
+  {"name":"Бизнес & Мэргэжлийн хөгжил","icon":"💼","description":"Бизнес, санхүү, манлайлал","subcategories":[
+    {"name":"Нягтлан бодох бүртгэл"},{"name":"Нярав"},{"name":"Татвар"},{"name":"Санхүү"},{"name":"Excel for Business"},{"name":"Маркетинг"},{"name":"Digital marketing"},{"name":"Social media marketing"},{"name":"Борлуулалт"},{"name":"HR/Хүний нөөц"},{"name":"Менежмент"},{"name":"Төслийн удирдлага"},{"name":"Бизнес эхлүүлэх"},{"name":"Entrepreneurship"},{"name":"Leadership"},{"name":"Харилцааны ур чадвар"},{"name":"Илтгэх ур чадвар"},{"name":"Customer service"},{"name":"Оффисын ур чадвар"}
+  ]},
+  {"name":"Спорт & Эрүүл мэнд","icon":"🏃","description":"Дасгал, спорт, wellness сургалт","subcategories":[
+    {"name":"Фитнес","specializations":["Gym","Bodybuilding","CrossFit/Functional training","Aerobic","Cardio","Spinning"]},
+    {"name":"Иог"},{"name":"Пилатес"},{"name":"Сунгалт/Stretching"},{"name":"Усанд сэлэлт"},{"name":"Сагсан бөмбөг"},{"name":"Хөлбөмбөг"},{"name":"Волейбол"},{"name":"Теннис"},{"name":"Ширээний теннис"},{"name":"Бокс"},{"name":"Кикбокс"},{"name":"MMA"},{"name":"Жүдо"},{"name":"Каратэ"},{"name":"Таеквондо"},{"name":"Бөх"},{"name":"Гимнастик"},{"name":"Туялзуур сэлэм"},{"name":"Байт харваа"},{"name":"Морьт харваа"},{"name":"Бүжгийн фитнес"},{"name":"Эрүүл хооллолт/Wellness"}
+  ]},
+  {"name":"Мэргэжил олгох & Ур чадвар","icon":"🔧","description":"Практик, үйлдвэрлэл, үйлчилгээ","subcategories":[
+    {"name":"Тогооч"},{"name":"Нарийн боов"},{"name":"Бариста"},{"name":"Гагнуурчин"},{"name":"Цахилгаанчин"},{"name":"Сантехникч"},{"name":"Мужаан"},{"name":"Барилгын мэргэжил"},{"name":"Оёдолчин"},{"name":"Авто засвар"},{"name":"Ковш оператор"},{"name":"Экскаватор оператор"},{"name":"Хүнд машин механизм"},{"name":"ХАБЭА"},{"name":"Агуулах/логистик"},{"name":"Үйлчилгээний ажилтан"}
+  ]},
+  {"name":"Урлаг & Дизайн","icon":"🎨","description":"Хөгжим, урлаг, дизайн, медиа","subcategories":[
+    {"name":"Хөгжим","specializations":["Дуу/Вокал","Төгөлдөр хуур","Гитар","Морин хуур","Хийл","Бусад хөгжмийн зэмсэг"]},
+    {"name":"Урлаг","specializations":["Уран зураг","Зураг","Гар урлал","Театр/Жүжиг","Бүжиг","Балет"]},
+    {"name":"Дизайн & Медиа","specializations":["Graphic design","UI/UX","Photoshop","Illustrator","Figma","3D загварчлал","Interior design","AutoCAD","Video editing","Motion graphics","Photography","Content creation"]}
+  ]}
+]
